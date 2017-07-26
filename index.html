@@ -5,10 +5,44 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Ejercicio Guiado BEM</title>
+	<link rel="stylesheet" href="css/main.css">
 	<!-- Link archivo css-->
 	
 </head>
 <body>
+	<!-- menu con las clases BEM -->
+	<header>
+		<ul class="a-menu">
+			<li class="a-menu__item"></li>
+			<a href="#" class="a-menu__item__link">BLOG</a>
+			<li class="a-menu__item"></li>
+			<a href="#" class="a-menu__item__link">ABOUT</a>
+			<li class="a-menu__item"></li>
+			<a href="#" class="a-menu__item__link">CONTACTO</a>
+		</ul>
+	</header>
+	<section>
+		<div class="article">
+			<h2 class="article__tittle">Mermeladas</h2>
+			<p class="article__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quaerat laborum sapiente maxime nostrum accusantium cumque velit magni, quas voluptates cupiditate sit quae, temporibus officia saepe provident iusto veniam ab!</p>
+			<img src="img/mermeladas pirque.jpg" alt="" class="article__img">
+		</div>
+		<div class="article">
+			<h2 class="article__tittle">Comida Sludable</h2>
+			<p class="article__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quaerat laborum sapiente maxime nostrum accusantium cumque velit magni, quas voluptates cupiditate sit quae, temporibus officia saepe provident iusto veniam ab!</p>
+			<img src="img/comida-vegana-230x130.jpg" alt="" class="article__img">
+		</div>
+		<div class="article">
+			<h2 class="article__tittle">Los beneficios de la Miel</h2>
+			<p class="article__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt quaerat laborum sapiente maxime nostrum accusantium cumque velit magni, quas voluptates cupiditate sit quae, temporibus officia saepe provident iusto veniam ab!</p>
+			<img src="img/MIEL-DE-ABEJA-230x130.png" alt="" class="article__img">
+		</div>
+	</section>
+	<footer class="pie">
+		<p class="pie__item--center">
+			Create by Someone
+		</p>
+	</footer>
 
 </body>
 </html>
